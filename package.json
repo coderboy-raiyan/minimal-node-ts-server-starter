@@ -1,0 +1,25 @@
+{
+	"name": "node-firebase",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "bun --watch src/server.ts",
+		"build": "bun build src/server.ts --outdir dist --target bun",
+		"start": "bun dist/server.js",
+		"lint:fix": "bunx biome format --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.0",
+		"@types/bun": "latest",
+		"@types/express": "^5.0.4",
+		"@types/node": "^24.9.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0"
+	}
+}
