@@ -2,7 +2,7 @@
 
 A tiny, minimal starter for a Node + Express app written in TypeScript and intended to run with Bun.
 
-This repository is a lightweight starting point — perfect for forking, experimenting, or using as the basis for small services (including Firebase-backed apps). The project was bootstrapped with Bun and runs TypeScript directly with Bun's runtime.
+This repository is a lightweight starting point — perfect for forking, experimenting .The project was bootstrapped with Bun and runs TypeScript directly with Bun's runtime. Also it's initialized with Biome.js linting which is a new and very powerful tool which replaces the linting of Eslint and prettier
 
 ## Quick start
 
